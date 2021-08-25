@@ -105,7 +105,7 @@ class _OKToastState extends State<OKToast> {
     final TextTheme defaultTextTheme = typography.white;
 
     TextStyle textStyle = widget.textStyle ??
-        defaultTextTheme.body1.copyWith(
+        defaultTextTheme.bodyText2.copyWith(
           fontSize: 15.0,
           fontWeight: FontWeight.normal,
           color: Colors.white,
